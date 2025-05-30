@@ -1,0 +1,19 @@
+   0 nano /tmp/file.txt
+   1 ls-al
+   2 ls -al
+   3 cd tmp
+   4 cd /tmp
+   5 ls -al
+   6 df -h
+   7 df -h | head -n 3 > /tmp/file.txt
+   8 chmod g+wx /tmp/file.txt
+   9 chmod o-rwx /tmp/file.txt
+  10 ls -l /tmp/file.txt
+  11 nano /tmp/myfirstbashscript.sh
+  12 chmod +x /tmp/myfirstbashscript.sh
+  13 USER="ANITA"
+  14 echo $USER
+  15 echo 'echo "скрипт был запушен из директории: $PWD"' >> /tmp/myfirstbashscript.sh
+  16 /tmp/myfirstbashscript.sh
+  17 cat /tmp/myfirstbashscript.sh >> /tmp/file.txt
+  18 history > /tmp/file.txt
